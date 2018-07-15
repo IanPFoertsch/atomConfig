@@ -1,0 +1,25 @@
+'.source.js':
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log(${1:"crash"});$2'
+  'itBlock':
+    'prefix': 'jasmine it block'
+    'body': """
+      if("title", () => {
+
+      })
+    """
+  'describeBlock':
+    'prefix': 'jasmine describe block'
+    'body': """
+      describe("title", () => {
+
+      })
+    """
+  'beforeEachBlock':
+    'prefix': 'jasmine beforeEach block'
+    'body': """
+      beforeEach(()=> {
+
+      })
+    """
