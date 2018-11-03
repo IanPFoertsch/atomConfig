@@ -5,10 +5,12 @@
     ]
     telemetryConsent: "no"
   editor:
-    fontSize: 15
+    fontSize: 17
   "exception-reporting":
     userId: "a215aadf-915d-4a3e-94df-e99a8fd8e9d1"
-  "linter-eslint": {}
-  "linter-ui-default": {}
+  "linter-eslint":
+    fixOnSave: true
+  "linter-ui-default":
+    panelHeight: 57
   welcome:
     showOnStartup: false

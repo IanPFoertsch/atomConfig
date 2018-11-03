@@ -1,5 +1,12 @@
 'body':
-  'alt-pagedown': 'pane:show-next-item'
+  'alt-pagedown': 'pane:show-next-item',
   'alt-pageup': 'pane:show-previous-item'
+'atom-workspace atom-text-editor:not([mini])':
   'alt-right': 'editor:move-to-end-of-screen-line'
   'alt-left': 'editor:move-to-first-character-of-line'
+  "alt-shift-left": "editor:select-to-beginning-of-line",
+  "alt-shift-right": "editor:select-to-end-of-line",
+  'alt-shift-S': 'snippets:available',
+
+  'alt-up': 'core:move-to-top',
+  'alt-down': 'core:move-to-bottom'

@@ -5,14 +5,14 @@
   'itBlock':
     'prefix': 'jasmine it block'
     'body': """
-      if("title", () => {
+      it('', () => {
 
       })
     """
   'describeBlock':
     'prefix': 'jasmine describe block'
     'body': """
-      describe("title", () => {
+      describe('', () => {
 
       })
     """
